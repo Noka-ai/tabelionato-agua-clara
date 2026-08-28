@@ -1,0 +1,14 @@
+{
+  "name": "tabelionato-agua-clara",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional do Tabelionato Água Clara — Comarca de Água Clara/MS",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css --watch",
+    "build": "tailwindcss -i ./src/tailwind.css -o ./css/tailwind.css --minify",
+    "vercel-build": "npm run build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
