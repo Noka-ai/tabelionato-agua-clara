@@ -57,8 +57,7 @@ Depois de publicar, aponte o domínio próprio em *Settings → Domains*.
 
 ## O que revisar antes de publicar
 
-- `robots.txt` e `sitemap.xml`: trocar `SEU-DOMINIO.com.br` pelo domínio real.
-- `index.html`: as tags Open Graph (`og:url`, `og:image`) apontando para o domínio real.
+- `index.html`: a tag Open Graph `og:image` apontando para o domínio oficial (`https://tabelionatoaguaclara.vercel.app`).
 - O e-mail do DPO (`dpo@tabelionatoaguaclara.com.br`) precisa existir, ou substitua pelo e-mail oficial.
 - O formulário de triagem não usa backend: ele monta a mensagem e abre o WhatsApp oficial. Nenhum dado é armazenado — o que atende ao princípio de coleta mínima da LGPD. Para receber por e-mail, será preciso adicionar uma função serverless ou um serviço de formulário.
 
@@ -67,6 +66,6 @@ Depois de publicar, aponte o domínio próprio em *Settings → Domains*.
 - Serviço Notarial e Tabelionato de Protesto de Títulos e Outros Documentos de Dívida
 - Comarca de Água Clara — MS
 - Rua Roaldo Ferreira Lino, nº 27, Jardim Nova Água Clara, Água Clara — MS, CEP 79680-033
-- Telefone fixo: (67) 3239-2938 · WhatsApp: (67) 99681-3014
+- WhatsApp: (67) 99681-3014
 - tabelionatoaguaclara@outlook.com.br
 - Segunda a sexta, 08:00–11:00 e 13:00–17:00. Sábados e domingos: fechado.
